@@ -31,6 +31,7 @@ function login() {
         saveToLocalStorageLogin();
         clearLoginInputs();
         console.log("logined");
+        window.location.href="../pages/welcome.html";
         emailLoginError.classList.replace("d-block", "d-none");
         passLoginError.classList.replace("d-block", "d-none");
         return;
