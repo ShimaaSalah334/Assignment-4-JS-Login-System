@@ -30,8 +30,7 @@ function login() {
         token = usersList[i].name;
         saveToLocalStorageLogin();
         clearLoginInputs();
-        console.log("logined");
-        window.open("/pages/welcome.html");
+        window.open("/Assignment-4-JS-Login-System/pages/welcome.html", "_self");
         emailLoginError.classList.replace("d-block", "d-none");
         passLoginError.classList.replace("d-block", "d-none");
         return;
